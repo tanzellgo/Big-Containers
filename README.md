@@ -36,8 +36,17 @@ Join as worker node or manager node
 
 ## Find out command on how to join swarm as a worker/manager node
 
-For worker: docker swarm join-token worker
-For manager: docker swarm join-token manager
+For worker:
+
+```
+docker swarm join-token worker
+```
+
+For manager:
+
+``` 
+docker swarm join-token manager
+```
 
 The node will have joined the swarm
 
